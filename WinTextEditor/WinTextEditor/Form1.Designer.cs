@@ -36,6 +36,7 @@
             this.buttonSave = new System.Windows.Forms.Button();
             this.buttonSaveAs = new System.Windows.Forms.Button();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.panelControl.SuspendLayout();
             this.panelClose.SuspendLayout();
             this.SuspendLayout();
@@ -112,12 +113,18 @@
             this.buttonSaveAs.TabIndex = 3;
             this.buttonSaveAs.Text = "Сохранить как";
             this.buttonSaveAs.UseVisualStyleBackColor = true;
+            this.buttonSaveAs.Click += new System.EventHandler(this.buttonSaveAs_Click);
             // 
             // openFileDialog
             // 
             this.openFileDialog.FileName = "openFileDialog";
             this.openFileDialog.Filter = "TXT files|*.txt";
             this.openFileDialog.Title = "Открыть файл";
+            // 
+            // saveFileDialog
+            // 
+            this.saveFileDialog.Filter = "TXT files|*.txt";
+            this.saveFileDialog.Title = "Сохранить как";
             // 
             // FormMain
             // 
@@ -147,6 +154,7 @@
         private System.Windows.Forms.Button buttonOpen;
         private System.Windows.Forms.Button buttonClose;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog;
     }
 }
 
