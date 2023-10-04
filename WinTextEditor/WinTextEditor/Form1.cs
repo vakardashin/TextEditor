@@ -13,6 +13,7 @@ namespace WinTextEditor
 {
     public partial class FormMain : Form
     {
+        string FileName {  get; set; }
         public FormMain()
         {
             InitializeComponent();
@@ -27,11 +28,16 @@ namespace WinTextEditor
         {
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
-                string filename = openFileDialog.FileName;
+                FileName = openFileDialog.FileName;
                 // MessageBox.Show(filename);
-                string txt = File.ReadAllText(filename);
+                string txt = File.ReadAllText(FileName);
                 txtOutput.Text = txt;
             }
+        }
+
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+            File.WriteAllText(FileName, txtOutput.Text);
         }
     }
 }
