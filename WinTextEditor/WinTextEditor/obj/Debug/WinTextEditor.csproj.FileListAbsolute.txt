@@ -1,0 +1,10 @@
+C:\Work\C#\WinTextEditor\WinTextEditor\WinTextEditor\bin\Debug\WinTextEditor.exe.config
+C:\Work\C#\WinTextEditor\WinTextEditor\WinTextEditor\bin\Debug\WinTextEditor.exe
+C:\Work\C#\WinTextEditor\WinTextEditor\WinTextEditor\bin\Debug\WinTextEditor.pdb
+C:\Work\C#\WinTextEditor\WinTextEditor\WinTextEditor\obj\Debug\WinTextEditor.csproj.AssemblyReference.cache
+C:\Work\C#\WinTextEditor\WinTextEditor\WinTextEditor\obj\Debug\WinTextEditor.FormMain.resources
+C:\Work\C#\WinTextEditor\WinTextEditor\WinTextEditor\obj\Debug\WinTextEditor.Properties.Resources.resources
+C:\Work\C#\WinTextEditor\WinTextEditor\WinTextEditor\obj\Debug\WinTextEditor.csproj.GenerateResource.cache
+C:\Work\C#\WinTextEditor\WinTextEditor\WinTextEditor\obj\Debug\WinTextEditor.csproj.CoreCompileInputs.cache
+C:\Work\C#\WinTextEditor\WinTextEditor\WinTextEditor\obj\Debug\WinTextEditor.exe
+C:\Work\C#\WinTextEditor\WinTextEditor\WinTextEditor\obj\Debug\WinTextEditor.pdb
